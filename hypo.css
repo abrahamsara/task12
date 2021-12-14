@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --primary-color: #aae9e3;
+  }
+  
+  body {
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+  }
+  
+  /* Header */
+  
+  header {
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: black;
+  }
+  
+  header h1 {
+    font-family: "Megrim", cursive;
+    text-align: initial;
+  }
+  
+  nav {
+    text-align: right;
+  }
+  
+  nav > a {
+    padding: 0 0.5rem;
+  }
+  
+  /* Main */
+  
+  main {
+    margin: 0 0 7rem;
+  }
+  
+  main h1 {
+    margin: 1rem;
+  }
+  
+  /*  Input */
+  
+  .input-label {
+    font-size: larger;
+    color: var(--primary-color);
+    width: 256px;
+  }
+  
+  .input-label p {
+    color: #000;
+    font-size: larger;
+    margin: 0.5rem;
+  }
+  
+  .input-text {
+    font-size: 14px;
+    outline: black;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 258px;
+  }
+  
+  .btn-check {
+    background: var(--primary-color);
+    border: none;
+    color: blue;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: 1rem auto;
+    display: block;
+  }
+  
+  .output {
+    font-size: x-large;
+    margin: 1rem;
+    color: #000;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: large;
+    text-align: center;
+  }
